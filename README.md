@@ -12,7 +12,7 @@ My aims when creating the project are the following:
 
 ## Inputs
 
-All inputs are stored in [/input-files](/input-files)
+**All inputs are stored in [/input-files](/input-files)****
 - Landing location predictions provided by @jackt77
     - AllPredictions.json
     - LandPredictions.json
@@ -20,6 +20,13 @@ All inputs are stored in [/input-files](/input-files)
 - Weather data collected by myself (@rebeccanicols314159), and other files related to previous analysis of this (found in repo [rebeccanicols314159/auto-weather-data-test](https://github.com/rebeccanicols314159/auto-weather-data-test))
     - data.json
     - nearesettimes.py (updated to suit current program)
+
+## Overall data
+
+**The data described below is stored in [/overall-data](/overall-data/)**
+
+This is data required for all or multiple parts of the other project. It contains the following files:
+- TimeComparisons.json (contains a json dict of times available for predictions and the time of the closest weather data collectd to each.)
 
 ## Testing correlation
 
