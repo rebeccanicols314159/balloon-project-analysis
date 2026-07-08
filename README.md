@@ -17,8 +17,9 @@ All inputs are stored in [/input-files](/input-files)
     - AllPredictions.json
     - LandPredictions.json
     - SeaPredictions.json
-- Weather data collected by myself (@rebeccanicols314159)
+- Weather data collected by myself (@rebeccanicols314159), and other files related to previous analysis of this (found in repo [rebeccanicols314159/auto-weather-data-test](https://github.com/rebeccanicols314159/auto-weather-data-test))
     - data.json
+    - nearesettimes.py (updated to suit current program)
 
 ## Testing correlation
 
