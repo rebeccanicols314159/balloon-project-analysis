@@ -4,7 +4,7 @@ A github repo linked to the Balloon project
 ## Aim
 
 My aims when creating the project are the following:
-- Test the impact which certain meteological factors have on the landing location of a weather balloon.
+- Test the impact which certain meteorological factors have on the landing location of a weather balloon.
 - For the factors which had a significant impact, investigate:
     - the optimal condition for the optimal flight path
     - the optimal condition which reduce the risk of the balloon landing in the ocean
@@ -23,4 +23,4 @@ All inputs are stored in [/input-files](/input-files)
 ## Testing correlation
 
 ### Aim
-To test the impact which certain meteological factors have on the landing location of a weather balloon.
+To test the impact which certain meteorlogical factors have on the landing location of a weather balloon.
