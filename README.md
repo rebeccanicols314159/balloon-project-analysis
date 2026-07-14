@@ -27,6 +27,13 @@ My aims when creating the project are the following:
 
 This is data required for all or multiple parts of the other project. It contains the following files:
 - TimeComparisons.json (contains a json dict of times available for predictions and the time of the closest weather data collectd to each.)
+- TimesData.json (contains a json dict of the prediction times with weather data of times above)
+
+## Multiple use scripts
+
+**The data described below...**
+
+This needs filled in
 
 ## Testing correlation
 
