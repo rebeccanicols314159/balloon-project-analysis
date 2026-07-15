@@ -27,13 +27,14 @@ My aims when creating the project are the following:
 
 This is data required for all or multiple parts of the other project. It contains the following files:
 - TimeComparisons.json (contains a json dict of times available for predictions and the time of the closest weather data collectd to each.)
-- TimesData.json (contains a json dict of the prediction times with weather data of times above)
+- TimesData.json (contains a json dict of the prediction times and data with weather data of times above)
 
 ## Multiple use scripts
 
-**The data described below...**
+**The data described below is stored in [/multiple-use-scripts](/multiple-use-scripts/)**
 
-This needs filled in
+This is programs which either could have many uses when adapted, or may need to be used for the same job many times. It also contains scripts which have an output which fits into either of the above categories. The outputs are stored in **Overall data** (see above). This folder contains the following files:
+- timeswithdata.py (Combines TimeComparisons.json with data.json and AllPredictions.json and stores them in one json file named TimesData.json)
 
 ## Testing correlation
 
