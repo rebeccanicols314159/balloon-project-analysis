@@ -10,7 +10,9 @@ My aims when creating the project are the following:
     - the optimal condition which reduce the risk of the balloon landing in the ocean
 - Present this data in an understandable format to be usable by others
 
-## Inputs
+## What it does
+
+### Inputs
 
 **All inputs are stored in [/input-files](/input-files)****
 - Landing location predictions provided by @jackt77
@@ -21,7 +23,7 @@ My aims when creating the project are the following:
     - data.json
     - nearesettimes.py (updated to suit current program)
 
-## Overall data
+### Overall data
 
 **The data described below is stored in [/overall-data](/overall-data/)**
 
@@ -29,14 +31,22 @@ This is data required for all or multiple parts of the other project. It contain
 - TimeComparisons.json (contains a json dict of times available for predictions and the time of the closest weather data collectd to each.)
 - TimesData.json (contains a json dict of the prediction times and data with weather data of times above)
 
-## Multiple use scripts
+### Multiple use scripts
 
 **The data described below is stored in [/multiple-use-scripts](/multiple-use-scripts/)**
 
 This is programs which either could have many uses when adapted, or may need to be used for the same job many times. It also contains scripts which have an output which fits into either of the above categories. The outputs are stored in **Overall data** (see above). This folder contains the following files:
 - timeswithdata.py (Combines TimeComparisons.json with data.json and AllPredictions.json and stores them in one json file named TimesData.json)
 
-## Testing correlation
+### Testing correlation
 
-### Aim
+#### Aim
 To test the impact which certain meteorlogical factors have on the landing location of a weather balloon.
+
+## Usage
+
+### For a full runthrough:
+
+- Ensure input files are up to date
+- Run nearesttimes.py to update TimeComparisons.json
+- Run timeswithdata.py to update TimesData.json
